@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>show password</title>
+    <style>
+        .login
+        {
+            display: inline-block;
+            height:400px;
+            width:300px;
+            background-color:blueviolet;
+
+        }
+        .form_group{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 40px;
+padding-right: 40px;
+        }
+        .input{
+            height:40px;
+            width: 100%;
+            text-indent: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login">
+        <div class="form_group">
+            <input type="text" class='input' placeholder="Username">
+        </div>
+        <div class="form_group">
+            <input type="password" class='input' placeholder="password">
+        </div>
+<div class="form_group">
+    <button><img src='show-hide.png'onmousedown="showpassword()" onmouseup="hidepassword()" width='50px' ></button>
+</div>
+<div class="form_group">
+    <button>login</button>
+</div>
+    </div>
+
+    <script src="index2.js"></script>
+</body>
+</html>
